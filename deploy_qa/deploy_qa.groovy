@@ -3,7 +3,7 @@ void call(){
 echo "Starting Deployment"
 stage("Deploy_QA"){
     node{
-        options{
+        /*  options{
               timeout(time : 30, unit: 'MINUTES')
         		}
         //steps{
@@ -12,15 +12,15 @@ stage("Deploy_QA"){
               body: "Please go to ${env.BUILD_URL}console and verify the build"
               input "Deploy to Production?"
 	      Deployment Script
-        }*/
+        }
         post{
              success{
-                 echo 'Deployemnt is Successful . . .'
+                  . . .'
              }
              failure{
                  echo 'Deployment is failed'
-             } 
-        }
+             }
+        } */echo 'Deployemnt is Successful
     }
 }
 }
