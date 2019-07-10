@@ -20,7 +20,7 @@ stage("Deploy_QA"){
              failure{
                  echo 'Deployment is failed'
              }
-        } */echo 'Deployemnt is Successful
+        } */echo 'Deployemnt is Successful'
     }
 }
 }
