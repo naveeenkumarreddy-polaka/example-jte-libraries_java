@@ -3,7 +3,7 @@ echo "starting msbuild"
 stage('build') {
        echo "build the code"
        node {
-              //bat "mvn package"
+              bat "mvn package"
        }
   } 
 echo "ending msbuild"
